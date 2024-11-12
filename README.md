@@ -39,3 +39,10 @@ mv mp3d embodied_ssl/data/scene_datasets/
 mv gibson_train_val embodied_ssl/data/scene_datasets/
 mv mp3d embodied_ssl/data/scene_datasets/
 ```
+## 8. 修改`sbatch_scripts/run_script.sh`第5行的变量使其指向实际文件
+REPO_PATH=/path/to/code/embodied_ssl
+## 9. 运行下列指令
+```
+./sbatch_scripts/run_ovrl.sh
+./sbatch_scripts/run_ddppo.sh
+```
