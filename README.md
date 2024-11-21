@@ -8,7 +8,7 @@ conda activate habitat
 ```
 conda install habitat-sim=0.2.1 withbullet headless -c conda-forge -c aihabitat
 ```
-## 3.安装[habitat-lab](https://github.com/facebookresearch/habitat-lab.git)
+## 3.安装[habitat-lab](https://github.com/facebookresearch/habitat-lab.git) SLING所需要[habitat-lab](https://github.com/Jbwasse2/SLING.git)略有不同，需要从requirement文件下载
 ```
 cd habitat-lab
 pip install -r requirements.txt
